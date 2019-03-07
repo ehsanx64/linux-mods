@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Search the given argument using apt and feed it to grep afterward 
+sudo apt-cache search $1 | grep -i $1
