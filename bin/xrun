@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Run a X application and suppress its stdout and stderr
+$1 2> /dev/null &
