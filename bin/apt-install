@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Install package using apt-get
+sudo apt-get install $1
